@@ -1,7 +1,5 @@
 <?php
 
-defined('TYPO3') or die();
-
 (static function () {
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTypoScriptSetup(
         'page.includeJSFooter.formCrshield = EXT:form_crshield/Resources/Public/JavaScript/FormCrShield.js'
